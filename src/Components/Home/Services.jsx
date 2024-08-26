@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import img1 from '../../assests/img1.jpg'
-import img2 from '../../assests/img2.jpg'
-import img3 from '../../assests/img3.jpg'
+import img2 from '../../assests/Img2.jpg'
+import img3 from '../../assests/Img3.jpg'
 const ServiceCard = ({ title, imageSrc }) => {
   const [isHovered, setIsHovered] = useState(false);
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
-import img from '../../assests/img4.jpg'
+import img from '../../assests/Img4.jpg'
 const FaqSection = () => {
   const [open, setOpen] = useState(0); // Default open first question
 
