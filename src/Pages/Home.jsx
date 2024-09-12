@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../Components/Home/Header'
 import HeroSection from '../Components/Home/Hero-section'
 import ServiceGrid from '../Components/Home/Care'
@@ -19,16 +18,16 @@ const Home = () => {
     <div>
        <Header />
        <HeroSection />
-       <ServiceGrid />
-       <HomeCarePage />
-       <ElderlyManagement />
+       {/* <ServiceGrid /> */}
+       {/* <HomeCarePage /> */}
             <ExtensiveServices />
+            <AppointmentBooking />
             <ServicesComponent />
+       <ElderlyManagement />
             <JoinNovaHomeCare />
             <FaqSection />
-            <Counter />
+            {/* <Counter /> */}
             <ContactForm/>
-            <AppointmentBooking />
             <Footer />
     </div>
   )

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaFacebookF, FaTwitter, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { MdLocationOn, MdAccessTime } from 'react-icons/md';
 
