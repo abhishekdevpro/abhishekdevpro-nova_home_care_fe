@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ChevronRight, User, MapPin, Clipboard, CheckCircle } from 'lucide-react';
 
 const JobseekerForm = () => {

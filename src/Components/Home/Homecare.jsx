@@ -1,49 +1,3 @@
-// import React from 'react';
-
-// function JoinNovaHomeCare() {
-//   return (
-//     <div className="bg-orange-400 w-screen h-screen py-12">
-//       <div className="container mx-auto px-4">
-//         <h2 className="text-3xl font-bold text-center mb-8">Join With Us</h2>
-
-//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-//           {/* Step 1: Application */}
-//           <div className="bg-blue-100 p-6 rounded-lg">
-//             <h3 className="text-xl font-bold mb-2">1. Application</h3>
-//             <p>Easily apply with our streamlined process, designed for convenience and efficiency.</p>
-//           </div>
-
-//           {/* Step 2: Health Certificate */}
-//           <div className="bg-green-100 p-6 rounded-lg">
-//             <h3 className="text-xl font-bold mb-2">2. Health Certificate</h3>
-//             <p>Provide a health certificate to ensure safety and well-being for all participants.</p>
-//           </div>
-
-//           {/* Step 3: KYC Documents */}
-//           <div className="bg-yellow-100 p-6 rounded-lg">
-//             <h3 className="text-xl font-bold mb-2">3. KYC Documents</h3>
-//             <p>Submit necessary KYC documents for secure and compliant onboarding.</p>
-//           </div>
-
-//           {/* Step 4: Get On Board */}
-//           <div className="bg-purple-100 p-6 rounded-lg">
-//             <h3 className="text-xl font-bold mb-2">4. Get On Board</h3>
-//             <p>Join us quickly and effortlessly with our straightforward onboarding process.</p>
-//           </div>
-//         </div>
-
-//         <div className="text-center mt-8">
-//           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact Now</button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default JoinNovaHomeCare;
-
-import React from "react";
-
 const StepsToJoin = () => {
   const steps = [
     {
@@ -97,28 +51,6 @@ const StepsToJoin = () => {
     },
     {
       id: 3,
-      title: "KYC Documents",
-      description:
-        "Submit necessary KYC documents for secure and compliant onboarding.",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="2"
-          stroke="currentColor"
-          className="w-12 h-12 mx-auto text-teal-700"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M16 8c0-2.21-1.79-4-4-4S8 5.79 8 8s1.79 4 4 4 4-1.79 4-4zm-4 4v8"
-          />
-        </svg>
-      ),
-    },
-    {
-      id: 4,
       title: "Get On Board",
       description:
         "Join us quickly and effortlessly with our straightforward onboarding process.",
@@ -149,7 +81,7 @@ const StepsToJoin = () => {
           Steps To Join Nova Home Care
         </h3>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {steps.map((step) => (
           <div key={step.id} className="text-center">
             <div className="mb-4">{step.icon}</div>

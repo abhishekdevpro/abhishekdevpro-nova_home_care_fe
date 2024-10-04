@@ -1,5 +1,5 @@
 import { FaFacebookF, FaTwitter, FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import { MdLocationOn, MdAccessTime } from 'react-icons/md';
+import { MdLocationOn } from 'react-icons/md';
 
 const Header = () => {
   return (
@@ -10,10 +10,10 @@ const Header = () => {
           <span>1509 Lady St, Columbia, SC 29201, United States</span>
         </div>
         <div className='flex justify-between items-center gap-4'>
-        <div className="hidden md:flex text-xl font-normal items-center">
+        {/* <div className="hidden md:flex text-xl font-normal items-center">
           <MdAccessTime className="text-blue-500 mr-2" />
           <span>Mon To Sat 9:00 AM to 8:00 PM</span>
-        </div>
+        </div> */}
         <div className="flex space-x-4 mt-2 md:mt-0 text-xl font-normal">
           <FaFacebookF className=" cursor-pointer" />
           <FaTwitter className=" cursor-pointer" />
